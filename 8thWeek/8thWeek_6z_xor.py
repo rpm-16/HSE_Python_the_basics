@@ -1,0 +1,1 @@
+print(*list(map(lambda x: x[0]^x[1], zip(map(int, open('input.txt', 'r', encoding='utf8').readlines()[0].rstrip().split()), map(int, open('input.txt', 'r', encoding='utf8').readlines()[1].rstrip().split())))))
